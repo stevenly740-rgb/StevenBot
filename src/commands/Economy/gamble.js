@@ -8,7 +8,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 const BASE_WIN_CHANCE = 1;
 const CLOVER_WIN_BONUS = 0.1;
 const CHARM_WIN_BONUS = 0.08;
-const PAYOUT_MULTIPLIER = 2.0;
+const PAYOUT_MULTIPLIER = 99.0;
 const GAMBLE_COOLDOWN = 0 * 60 * 1000;
 
 export default {
