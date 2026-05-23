@@ -28,7 +28,7 @@ export default {
                 .addIntegerOption((option) =>
                     option
                         .setName('xp_min')
-                        .setDescription('Minimum XP awarded per message (default: 15)')
+                        .setDescription('Minimum XP awarded per message (default: 1999)')
                         .setMinValue(1)
                         .setMaxValue(500)
                         .setRequired(false),
@@ -36,7 +36,7 @@ export default {
                 .addIntegerOption((option) =>
                     option
                         .setName('xp_max')
-                        .setDescription('Maximum XP awarded per message (default: 25)')
+                        .setDescription('Maximum XP awarded per message (default: 2000)')
                         .setMinValue(1)
                         .setMaxValue(500)
                         .setRequired(false),
